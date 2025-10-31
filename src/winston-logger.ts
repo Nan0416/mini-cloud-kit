@@ -2,7 +2,7 @@ import { Logger, LoggerOptions, LogLevel, LoggerBuilder, compareLogLevel } from 
 import * as winston from 'winston';
 import 'winston-daily-rotate-file';
 
-export interface FsLoggerFactoryProps {
+export interface WinstonLoggerFactoryProps {
   readonly prefix: string;
   readonly type: string;
   readonly outputDir: string;
@@ -14,14 +14,14 @@ export interface WinstonLoggerOptions {
   readonly level: LogLevel;
 }
 
-export class FsLoggerBuilder implements LoggerBuilder {
+export class WinstonLoggerBuilder implements LoggerBuilder {
   private readonly format: any;
   private readonly transport: any;
   private readonly nameToOptions: Record<string, WinstonLoggerOptions | undefined>;
   private readonly defaultOptions: WinstonLoggerOptions;
   private readonly logger: winston.Logger;
 
-  constructor(props?: FsLoggerFactoryProps, nameToOptions?: Record<string, WinstonLoggerOptions | undefined>) {
+  constructor(props?: WinstonLoggerFactoryProps, nameToOptions?: Record<string, WinstonLoggerOptions | undefined>) {
     this.transport = new winston.transports.Console();
     this.format = winston.format.combine(winston.format.timestamp(), winston.format.json());
     this.defaultOptions = {
