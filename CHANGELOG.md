@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Nan0416/mini-cloud-kit/compare/v1.0.0...v1.0.1) (2025-10-31)
+
+
+### Bug Fixes
+
+* **rename:** rename winston logger ([#1](https://github.com/Nan0416/mini-cloud-kit/issues/1)) ([a7af85b](https://github.com/Nan0416/mini-cloud-kit/commit/a7af85b0b17234045fea4e7db4f13e860343f5f9))
+
 # 1.0.0 (2025-10-31)
 
 
