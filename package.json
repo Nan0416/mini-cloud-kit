@@ -42,8 +42,9 @@
     "typescript": "^5.4.2"
   },
   "dependencies": {
-    "@ultrasa/dev-kit": "^1.3.0",
-    "@ultrasa/mini-cloud-models": "^1.1.0",
+    "@ultrasa/dev-kit": "^1.4.0",
+    "@ultrasa/mini-cloud-models": "^1.2.0",
+    "json-stable-stringify": "^1.3.0",
     "nanoid": "^3.3.11",
     "uuid": "^9.0.1",
     "websocket": "^1.0.35",
