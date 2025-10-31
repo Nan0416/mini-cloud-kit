@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/Nan0416/mini-cloud-kit/compare/v1.0.1...v1.1.0) (2025-10-31)
+
+
+### Features
+
+* **metrics:** add file based metrics logger ([#2](https://github.com/Nan0416/mini-cloud-kit/issues/2)) ([f77be3b](https://github.com/Nan0416/mini-cloud-kit/commit/f77be3b8911782f2bf88e4da871250dd5cf10d07))
+
 ## [1.0.1](https://github.com/Nan0416/mini-cloud-kit/compare/v1.0.0...v1.0.1) (2025-10-31)
 
 
