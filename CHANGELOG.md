@@ -1,3 +1,10 @@
+# 1.0.0 (2025-10-31)
+
+
+### Features
+
+* **features:** add message clients, task report, and winston logger ([3ff1e7e](https://github.com/Nan0416/mini-cloud-kit/commit/3ff1e7ee5a4678e02d269b53b0334e1397cded80))
+
 # [1.1.0](https://github.com/Nan0416/mini-cloud-models/compare/v1.0.1...v1.1.0) (2025-10-30)
 
 
